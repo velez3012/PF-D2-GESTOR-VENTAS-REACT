@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+h1{
+  font-size: 4rem;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 65%;
+}
+h3{
+  font-size: 2rem;
+}
+p{
+  font-size: 1.6rem;
+  text-align: justify;
+  max-width: 80%;
+  margin: 20px auto;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+.App{
+  width: 100%;
+}
+header{
+  width: 100%;
+  font-size: 2rem;
+}
+main{
+  display: flex;
+  width: 100%;
+}
+main form{
+  width: 500px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+main form .btn{
+  font-size: 1.6rem;
+  width: 150px;
+  display: block;
+  margin: 10px auto;
+}
+main form .form-floating .form-control{
+  height: 55px;
+  font-size: 1.6rem;
+}
+.input-dropdwon{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.barra-izq{
+  width: 30%;
+  height: 100%;
+  background-color: darkgoldenrod;
+}
+.barra-izq img{
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+.barra-izq a{
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #333;
+}
+.barra-izq ul{
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+.barra-izq ul li{
+  padding: 5px;
+  border-bottom: solid 2px transparent;
+}
+.barra-izq ul li:hover{
+  border-bottom: solid 2px #333;
+}
+.main-content{
+  width: 70%;
+  height: 100%;
+  /* background-color: darkolivegreen; */
+}
+
+.inicio p{
+  text-align: justify;
+  font-size: 2.4rem;
+}
+.code{
+  text-align: center;
+  font-size: 2.6rem;
+  margin: 50px 0;
+}
+
+/* INVENTARIO */
+.inventario {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+.inventario h2{
+  font-size: 3.2rem;
+  text-align: center;
+}
+.inventario table{
+  margin: 12px auto;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  font-size: 1.6rem;
+  border: solid 2px transparent;
+}
+.inventario table button{
+  margin: 0 4px;
+}
+.inventario .div-btn-crear-producto{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.inventario .btn-create-cliente{
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.div-editar-producto {
+  position: relative;
+  margin: 20px 0;
+}
+.div-editar-producto h3{
+  margin: 10px 0;
+}
+.div-editar-producto .btn-cerrar-editar-producto{
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 2rem;
+  width: 30px;
+}
+
+/* venta */
+.venta{
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+.venta button{
+  font-size: 1.4rem;
+}
+.venta table{
+  margin: 10px 0;
+}
+.venta .table-productos-agregados{
+  border: solid 2px black;
+  padding: 3px;
+}
+.venta .cliente-table td{
+  cursor: pointer;
+}
+.btn-terminar{
+  display: block;
+  margin: 10px auto;
+
+}
+
+/* CLIENTES */
+.clientes{
+  margin: 0 auto;
+  width: 80%;
+}
+.clientes .create-cliente {
+  font-size: 2rem;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.clientes .div-btn-crear-cliente{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.clientes .create-cliente svg{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+.clientes .table-clientes{
+  font-size: 1.6rem;
+  max-width: 1000px;
+}
+.clientes button{
+  margin: 0 3px;
+}
+.clientes .editar-cliente{
+  margin: 20px 0;
+  font-size: 1.6rem;
+  position: relative;
+}
+.input-group .input-group-text{
+  font-size: 1.6rem;
+}
+.input-group .form-control{
+  font-size: 1.6rem;
+}
+.editar-cliente .btn-cerrar-editar-cliente{
+  position: absolute;
+  right: 0;
+  top: -20px;
+  font-size: 2rem;
+  width: 30px;
+
+}
+.editar-cliente .btn-terminar{
+  font-size: 1.6rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.crear-cliente{
+  position: relative;
+}
+.crear-cliente .btn-cerrar-crear-cliente{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.registros{
+  width: 90%;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+.registros .header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.header .filtro-por-cliente{
+  width: 50%;
+}
+.filtro-por-cliente .td-cliente-nombre{
+  cursor: pointer;
+}
+.header .filtro-por-codigo{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.filtro-por-codigo input{
+  width: 80%;
+  padding: 5px 3px;
+  font-size: 1.6rem;
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+footer{
+  font-size: 1.6rem;
+}
